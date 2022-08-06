@@ -3,7 +3,7 @@
 An effort to make Intech EN16 Controller by [Intech](https://github.com/intechstudio) work as expected in Ableton 11.
 
 
-This repository contains presets and profiles for [Grid Editor](https://intech.studio/grid-editor/overview) by Intech, as well as User Remote Script mappings for Ableton.
+This repository contains presets and profiles for [Grid Editor](https://intech.studio/grid-editor/overview), as well as User Remote Script mappings for Ableton.
 
 
 
@@ -35,6 +35,6 @@ The mappings feature the following layouts:
 
 I've never tried it, because I don't really find this useful, but if you're interesting in implementing it, you can try following this guide from Intech: https://intech.studio/feed/receive-midi-from-ableton-with-grid-controllers
 
-If you succeed, please consider making a pull-request to this repository.
+If you succeed, please consider making a pull request to this repository.
 
 # Have fun!
