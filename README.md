@@ -1,16 +1,16 @@
 # intech-en16-ableton
 
-An effort to make Intech EN16 Controller work as expected in Ableton 11.
+An effort to make Intech EN16 Controller by [Intech](https://github.com/intechstudio) work as expected in Ableton 11.
 
 
-This repository contains presets and profiles for Grid Editor by Intech, as well as User Remote Script mappings for Ableton.
+This repository contains presets and profiles for [Grid Editor](https://intech.studio/grid-editor/overview) by Intech, as well as User Remote Script mappings for Ableton.
 
 
 
 ## Usage
 
 1. Copy presets and profiles from `presets` & `profiles` to your Grid Editor's directory with presets and profiles
-2. Set one of the profiles to use with all pages (or just the first one) your EN16 in Grid editor and save it. The only thing that profile does on top of the default one is setting all encoders to Binary Offset Relative Mode so it will work properly with Ableton
+2. Set one of the profiles to use with all pages (or just the first one if you like) of your EN16 in Grid editor and save it. Note that the only thing that profile does on top of the default one is setting all encoders to Binary Offset Relative Mode so it will work properly with Ableton
 3. Copy directories from `Ableton User Remote Scripts` directory to appropriate place for User Remote Scripts for your platform (usually `/Users/[Username]/Library/Preferences/Ableton/Live x.x.x/User Remote Scripts.` on Mac and `:\Users\[Username]\AppData\Roaming\Ableton\Live x.x.x\Preferences\User Remote Scripts` on Windows) - most relevant directories are listed in [Ableton Docs](https://help.ableton.com/hc/en-us/articles/206240184-Creating-your-own-Control-Surface-script)
 4. Launch Ableton, open MIDI settings, select a control surface and select your Grid device for MIDI input and output.
 
