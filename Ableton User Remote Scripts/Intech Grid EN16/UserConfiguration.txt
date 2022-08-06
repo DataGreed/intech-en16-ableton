@@ -64,22 +64,22 @@ Pad16Channel: -1
 # the channel for each controller if it differs from the global
 # channel (if you leave the channel of an encoder at -1, Live
 # will assume that the encoder uses the global channel).
-Encoder1: -1
-Encoder2: -1
-Encoder3: -1
-Encoder4: -1
-Encoder5: -1
-Encoder6: -1
-Encoder7: -1
-Encoder8: -1
-EncoderChannel1: -1
-EncoderChannel2: -1
-EncoderChannel3: -1
-EncoderChannel4: -1
-EncoderChannel5: -1
-EncoderChannel6: -1
-EncoderChannel7: -1
-EncoderChannel8: -1
+Encoder1: 40
+Encoder2: 41
+Encoder3: 42
+Encoder4: 43
+Encoder5: 44
+Encoder6: 45
+Encoder7: 46
+Encoder8: 47
+EncoderChannel1: 0
+EncoderChannel2: 0
+EncoderChannel3: 0
+EncoderChannel4: 0
+EncoderChannel5: 0
+EncoderChannel6: 0
+EncoderChannel7: 0
+EncoderChannel8: 0
 # Enter the respective map mode for the encoders here. The following
 # map modes are available:
 # - Absolute
@@ -93,7 +93,7 @@ EncoderChannel8: -1
 # - AccelTwoCompliment
 # - AccelBinaryOffset
 # Consult the controller's documentation to find out which mode to use.
-EncoderMapMode: Absolute
+EncoderMapMode: LinearBinaryOffset
 # Buttons used here are expected to not be toggles (i.e., sending
 # value 0 every second time you press it).
 Bank1Button: -1
@@ -155,8 +155,8 @@ TrackArmButton5: -1
 TrackArmButton6: -1
 TrackArmButton7: -1
 TrackArmButton8: -1
-VolumeMapMode: Absolute
-SendsMapMode: Absolute
+VolumeMapMode: LinearBinaryOffset
+SendsMapMode: LinearBinaryOffset
 
 [TransportControls]
 # The transport buttons are also expected not to be toggles.
