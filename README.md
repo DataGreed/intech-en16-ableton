@@ -22,7 +22,7 @@ This should be enough to get everything to work.
 The mappings feature the following layouts:
 
 1. `Intech Grid EN16` - bottom 8 encoders on the first page of the device automap to macro knobs of currently selected device in Ableton
-2. `Intech Grid EN16 with mixer` - same as `Intech Grid EN16`, and on top of that bottom 8 encoders of the first page are mapped to volume sliders of the first 8 mixer tracks.
+2. `Intech Grid EN16 with mixer` - same as `Intech Grid EN16`, plus top 8 encoders of the first page are mapped to volume sliders of the first 8 mixer tracks.
 
 
 ## General Recommendations
