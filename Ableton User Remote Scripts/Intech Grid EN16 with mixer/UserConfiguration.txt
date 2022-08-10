@@ -12,8 +12,8 @@ GlobalChannel: 0
 # If your controller is connected via USB, replace ControllerName
 # with the name of the respective port. Live will then try to
 # recognize the ports for you when you select your Instant-Mappings
-InputName: Intech Studio: Grid
-OutputName: Intech Studio: Grid
+InputName: ControllerName
+OutputName: ControllerName
 # If your controller has pads that send notes, you can use them to
 # play the visible pads in your DrumRacks. Just replace the -1 for
 # the note (and channel) of the respective pad. The arrangement of
